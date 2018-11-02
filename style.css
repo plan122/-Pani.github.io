@@ -1,0 +1,120 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-outline-primary {
+    border-color: #000046;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-color: #000033;
+    border-bottom-width: 5px;
+    background-color: #000046;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: white;
+}
+
+.col-12 {
+    background-color: #000030;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.container-fluid{
+    background-color: #000030;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.col {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    color: #000046;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.map {
+    border: solid;
+    border-width: 5px;
+    border-color: #000046;
+    margin-bottom: 10%;
+}
+
+.col-1 {
+    text-align: center;
+}
+
+.gallery  img {
+    width: 180px;
+    height: 110px;
+    margin-right: 33px;
+    margin-bottom: 5%;
+}
+
+.gallery {
+    margin-top: 5%;
+    float: right;
+}
+
+.row {
+    margin-right: 0;
+}
+
+.container {
+    float: right;
+    margin-right: 5%;
+    max-width: 1415px;
+}
+
+.wrapper {
+    width: 180px;
+    height: 220px;
+    display: inline-block;
+}
+
+.flex-column {
+    width: 10%;
+}
+
+.nav {
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+.gallery img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-style: groove;
+    border-width: 2px;
+    border-color: #000046;
+}
+
+.gallery img{
+    padding: 5px;
+
+}
